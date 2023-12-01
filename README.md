@@ -21,3 +21,4 @@ To run the application locally, follow these steps:
 
    ```bash
    git clone https://github.com/your-username/101386847_comp3123_labtest2.git
+![Screenshot (1)](https://github.com/mehrshad-gh/101386847_comp3123_labtest2/assets/119012621/4c36eae9-60c2-493a-9d62-45d3de97272a)
