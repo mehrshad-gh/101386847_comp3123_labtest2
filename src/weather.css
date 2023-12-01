@@ -1,0 +1,44 @@
+/* src/styles/weather.css */
+body{
+  background-color:blanchedalmond
+}
+.weather-container {
+    background: linear-gradient(to bottom, #64b5f6, #2196f3);
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff; /* Adjust text color for readability */
+    transition: background-color 0.3s ease;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+  .weather-icon {
+    width: 100px; /* Adjust the size as needed */
+    height: 100px;
+  }
+
+  label {
+    color: #fff;
+  }
+  
+  input {
+    padding: 8px;
+    font-size: 16px;
+  }
+
+
+
